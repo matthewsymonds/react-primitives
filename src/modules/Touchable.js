@@ -1,6 +1,7 @@
 const React = require('react');
 const PropTypes = require('prop-types');
 const TimerMixin = require('react-timer-mixin');
+const createReactClass = require('create-react-class');
 
 const ensurePositiveDelayProps = (/* props */) => {
   // invariant(
@@ -74,7 +75,7 @@ const Touchable = (
   });
 
   // eslint-disable-next-line react/prefer-es6-class
-  return React.createClass({
+  return createReactClass({
     displayName: 'Touchable',
     propTypes: {
       accessible: PropTypes.bool,
