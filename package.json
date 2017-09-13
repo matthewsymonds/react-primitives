@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lelandrichardson/react-primitives.git"
+    "url": "git+https://github.com/matthewsymonds/react-primitives.git"
   },
   "keywords": [
     "react"
@@ -74,6 +74,7 @@
   "dependencies": {
     "animated": "^0.1.5",
     "asap": "^2.0.5",
+    "create-react-class": "^15.6.0",
     "deline": "^1.0.4",
     "flexibility": "^2.0.1",
     "inline-style-prefixer": "^2.0.5",
